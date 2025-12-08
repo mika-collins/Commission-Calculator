@@ -1,0 +1,35 @@
+# Node (React + Electron)
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Production build folders
+frontend/build/
+electron/dist/
+
+# Cache
+.cache/
+.temp/
+
+# Python Backend
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+venv/
+.env*
+
+# SQLite database (local only)
+backend/db.sqlite
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+
+# Miscallaneous
+.vscode/
+dist/
+*.env
