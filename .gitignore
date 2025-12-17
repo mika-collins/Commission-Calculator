@@ -1,35 +1,40 @@
-# Node (React + Electron)
+# Node / Electron
 node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# Vite build output
+frontend/dist/
+
+# Electron build output
+dist/
+out/
+
+# Python
+backend/__pycache__/
+backend/*.db
+backend/venv/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Production build folders
-frontend/build/
-electron/dist/
-
-# Cache
-.cache/
-.temp/
-
-# Python Backend
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.env
-venv/
-.env*
-
-# SQLite database (local only)
-backend/db.sqlite
-
-# OS / Editor files
-.DS_Store
-Thumbs.db
-
-# Miscallaneous
-.vscode/
-dist/
-*.env
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
